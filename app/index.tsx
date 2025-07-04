@@ -28,7 +28,7 @@ export default function Index() {
 
         try {
             setLoading(true);
-            const res = await api.get(`/api/tpv/acceso/${clave.trim()}`);
+            const res = await api.post(`/api/tpv/acceso`, { clave: clave.trim() });
             const tpv = res.data;
 
             if (!tpv || !tpv.id) throw new Error('TPV inválido');
