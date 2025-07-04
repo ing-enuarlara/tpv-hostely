@@ -65,6 +65,6 @@ export default {
                 projectId: "1b401d18-d2bc-4e1d-ace6-875d3c3b34c4"
             }
         },
-        owner: "ing-enuarlara"
+        owner: "tpv-hostely-ia"
     }
 };
